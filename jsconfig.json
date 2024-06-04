@@ -1,7 +1,37 @@
 {
   "compilerOptions": {
+    "baseUrl": ".",
     "paths": {
-      "@/*": ["./src/*"]
+      "@/api/*": [
+        "src/api/*"
+      ],
+      "@/components/*": [
+        "src/components/*"
+      ],
+      "@/containers/*": [
+        "src/containers/*"
+      ],
+      "@/hooks/*": [
+        "src/hooks/*"
+      ],
+      "@/js/*": [
+        "src/js/*"
+      ],
+      "@/recoil/*": [
+        "src/recoil/*"
+      ],
+      "@/mocks/*": [
+        "src/mocks/*"
+      ],
+      "@/styles/*": [
+        "styles/*"
+      ],
+      "@/icons/*": [
+        "public/icons/*"
+      ],
+      "@/images/*": [
+        "public/images/*"
+      ]
     }
   }
 }

@@ -1,5 +1,6 @@
 import AddRemoveLayout from '@/components/basic/AddRemoveGrid'
 import BasicGrid from '@/components/basic/BasicGrid'
+import Widget from '@/components/widget/Widget'
 import React from 'react'
 
 const Grid = () => {
@@ -9,10 +10,11 @@ const Grid = () => {
     rowHeight: 100,
   }
   return (
-    <>
+    <div style={{ position: 'relative', height: '100vh' }}>
       <BasicGrid />
+      <Widget />
       {/* <AddRemoveLayout props={props} /> */}
-    </>
+    </div>
   )
 }
 
